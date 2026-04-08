@@ -1,0 +1,1 @@
+{\n  "name": "My Dev Container",\n  "dockerFile": "Dockerfile",\n  "settings": {\n    "terminal.integrated.shell.linux": "/bin/bash"\n  },\n  "extensions": [\n    "ms-python.python"\n  ],\n  "postCreateCommand": "pip install -r requirements.txt"\n}
